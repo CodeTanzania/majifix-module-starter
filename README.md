@@ -1,11 +1,11 @@
-majifix-status
+majifix-module-starter
 ====================
 
-[![Build Status](https://travis-ci.org/CodeTanzania/majifix-status.svg?branch=develop)](https://travis-ci.org/CodeTanzania/majifix-status)
-[![Dependencies Status](https://david-dm.org/CodeTanzania/majifix-status/status.svg?style=flat-square)](https://david-dm.org/CodeTanzania/majifix-status)
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/CodeTanzania/majifix-status/tree/develop)
+[![Build module-starter](https://travis-ci.org/CodeTanzania/majifix-module-starter.svg?branch=develop)](https://travis-ci.org/CodeTanzania/majifix-module-starter)
+[![Dependencies module-starter](https://david-dm.org/CodeTanzania/majifix-module-starter/module-starter.svg?style=flat-square)](https://david-dm.org/CodeTanzania/majifix-module-starter)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/CodeTanzania/majifix-module-starter/tree/develop)
 
-A representation of an entity which provides a way to set flags on service requests(issues) in order to track their progress.
+A representation of a module which can be used to extend majifix
 
 ## Requirements
 - [NodeJS v9.9.0+](https://nodejs.org)
@@ -14,13 +14,13 @@ A representation of an entity which provides a way to set flags on service reque
 
 ## Installation
 ```sh
-$ npm install majifix-status --save
+$ npm install majifix-module-starter --save
 ```
 
 ## Usage
 ```js
 const mongoose = require('mongoose');
-const { app } = require('majifix-status');
+const { app } = require('majifix-module-starter');
 
 //connect to mongodb
 mongoose.connect(process.env.MONGODB_URI);
