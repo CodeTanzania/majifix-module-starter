@@ -12,29 +12,12 @@ A representation of a module which can be used to extend majifix
 - [MongoDB v3.4.10+](https://www.mongodb.com/)
 - [Mongoose v5.0.14+](https://github.com/Automattic/mongoose)
 
-## Installation
-```sh
-$ npm install majifix-module-starter --save
-```
+
 
 ## Usage
-```js
-const mongoose = require('mongoose');
-const { app } = require('majifix-module-starter');
-
-//connect to mongodb
-mongoose.connect(process.env.MONGODB_URI);
-
-//fire the app
-app.start(function(error, env) {
-  ...
-});
-```
-
-## Testing
 * Clone this repository
 
-* Install all development dependencies
+* Install all dependencies
 ```sh
 $ npm install
 ```
@@ -48,6 +31,8 @@ $ npm run dev
 ```sh
 $ npm test
 ```
+
+* Modify files to serve your purpose
 
 ## Contribute
 It will be nice, if you open an issue first so that we can know what is going on, then, fork this repo and push in your ideas. Do not forget to add a bit of test(s) of what value you adding.
