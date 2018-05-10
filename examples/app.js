@@ -2,7 +2,7 @@
 
 /* ensure mongo uri */
 process.env.MONGODB_URI =
-  (process.env.MONGODB_URI || 'mongodb://localhost/majifix-status');
+  (process.env.MONGODB_URI || 'mongodb://localhost/majifix-module-stater');
 
 
 /* dependencies */
