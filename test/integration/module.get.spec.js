@@ -1,12 +1,6 @@
 'use strict';
 
 /* dependencies */
-const path = require('path');
-const _ = require('lodash');
-const async = require('async');
-const { expect } = require('chai');
-const { Jurisdiction } = require('majifix-jurisdiction');
-const { Status } = require(path.join(__dirname, '..', '..'));
 
 describe('<Module Name>', function () {
 

@@ -31,7 +31,7 @@ function wipe(done) {
 
 //setup database
 before(function (done) {
-  // mongoose.connect('mongodb://localhost/majifix-<Module Name>', done);
+  mongoose.connect('mongodb://localhost/majifix-module-starter', done);
 });
 
 // clear previous states
