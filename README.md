@@ -16,6 +16,10 @@ A representation of a module which can be used to extend majifix
 
 - Clone this repository
 
+```sh
+git clone git@github.com:CodeTanzania/majifix-module-starter.git majifix-{put module name}
+```
+
 - Install all dependencies
 
 ```sh
