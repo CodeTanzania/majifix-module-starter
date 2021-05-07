@@ -44,7 +44,7 @@
     "body-parser": "^1.18.3",
     "chai": "^4.1.2",
     "faker": "git+https://github.com/Marak/faker.js.git",
-    "grunt": "^1.0.2",
+    "grunt": "^1.3.0",
     "grunt-apidoc": "^0.11.0",
     "grunt-contrib-jshint": "^1.1.0",
     "grunt-contrib-watch": "^1.1.0",
